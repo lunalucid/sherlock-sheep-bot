@@ -1,0 +1,25 @@
+{
+  "name": "sherlock-sheep",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js",
+    "build": "tsup src/index.ts --minify"
+  },
+  "author": "Alisha Penny <contact@alishapenny.com>",
+  "license": "MIT",
+  "description": "Sherlock Sheep, the fact-checking discord bot.",
+  "dependencies": {
+    "discord-api-types": "^0.38.16",
+    "discord.js": "^14.21.0",
+    "dotenv": "^17.2.0",
+    "openai": "^6.35.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}
