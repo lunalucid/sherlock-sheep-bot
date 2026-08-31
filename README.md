@@ -1,5 +1,7 @@
 # Sherlock Sheep
 
+[Electron wrapper repo here](https://github.com/lunalucid/sherlock-sheep-electron)
+
 <p>Sherlock Sheep is a Discord bot that quietly watches your server and fact-checks claims in real time, stepping in when something's worth investigating and staying quiet during casual chat.</p>
 <p>Wrapped in a desktop app (Electron) with a simple Start/Stop interface. No hosting required, runs on your machine.</p>
 <p><strong>What it does</strong></p>
